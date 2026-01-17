@@ -94,14 +94,14 @@ A complete full-stack expense management solution that streamlines personal and 
 
 ## Backend 'application.properties' demo
 
-server.port = Add Your PORT Value
+1. server.port = Add Your PORT Value
 
-spring.data.mongodb.uri = Add Your Mongo DB URI
+2. spring.data.mongodb.uri = Add Your Mongo DB URI
 
-jwt.secret = Add Your Secret Key For Authorization
+3. jwt.secret = Add Your Secret Key For Authorization
 
-jwt.expiration = Add Your Mongo Authorization Expiry Date
+4. jwt.expiration = Add Your Mongo Authorization Expiry Date
 
-spring.application.name = Add Your Project Name
+5. spring.application.name = Add Your Project Name
 
-cors.allowed.origins = Add Your Frontend URL
+6. cors.allowed.origins = Add Your Frontend URL
