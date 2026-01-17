@@ -1,0 +1,32 @@
+.footer {
+  background: var(--text-dark);
+  color: var(--white);
+  padding: 30px 20px;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-container p {
+  margin: 5px 0;
+  opacity: 0.8;
+}
+
+.footer-container p:first-child {
+  font-weight: 600;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 15px;
+  }
+
+  .footer-container p {
+    font-size: 0.9rem;
+  }
+}
